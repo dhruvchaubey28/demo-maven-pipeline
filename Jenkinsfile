@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {          
             steps {
-                git branch: "master", url: "https://github.com/hkshitesh/SL-MAVEN-8-FEB-BACTH.git"
+                git branch: "master", url: "https://github.com/sumitrsch/SL-MAVEN-8-FEB-BACTH.git"
             }
         }
         stage('Build') {
